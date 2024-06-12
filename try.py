@@ -2,8 +2,9 @@
 # magic method work with object
 #based on action magic method called implicitly/atomatically
 # __str__ method  provide meaningful string representations of objects.
+
 class me:
-    def __init__(self, name, age, bio):
+    def __init__(self,name,age,bio):
         self.name = name
         self.age = age
         self.bio = bio
@@ -13,4 +14,7 @@ class me:
 Me=me("Jerin Akter",24,"I am a Trader")
 print(Me)
 #or
-#print(str(Me))
+print(str(Me))
+
+
+
