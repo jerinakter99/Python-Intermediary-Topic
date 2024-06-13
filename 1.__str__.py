@@ -1,5 +1,5 @@
 #*** Magic/Dunder/Special method
-# magic method work with object
+# magic method work with object.
 #based on action magic method called implicitly/atomatically
 # __str__ method  provide meaningful string representations of objects.
 class me:
