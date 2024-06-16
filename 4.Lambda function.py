@@ -23,7 +23,8 @@ people = [Person("Abir", 20), Person("Arif", 25), Person("Ali", 30)]
 sorted_people = sorted(people, key=lambda person: person.age)
 print(sorted_people)
 
-#Lambda in List Comprehensions
+#Lambda in the List Comprehensions
+
 numbers = [1, 2, 3, 4, 5, 6]
 doubled = [(lambda x: x * 2)(x) for x in numbers]
 print(doubled)
