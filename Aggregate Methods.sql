@@ -2,7 +2,6 @@
 --     count rows, calculate averages, and sum values. When combined with the GROUP BY clause, 
 --     they can provide insights into different subsets of your data.
 -- commonly used with the GROUP BY clause to group the results by one or more columns. 
-
 -- MIN(): Returns the smallest value.
 -- MAX(): Returns the largest value.
 -- COUNT(): Returns the number of rows.
