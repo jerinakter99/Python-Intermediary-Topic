@@ -27,14 +27,17 @@ SELECT AVG(gpa) AS average_gpa FROM students;
 SELECT SUM(age) AS total_age FROM students;
 
 -- Grouping with Aggregate Functions
+
 -- Counting Students by Major
 SELECT major, COUNT(*) AS num_students
 FROM students
 GROUP BY major;
+
 -- Average GPA by Major
 SELECT major, AVG(gpa) AS average_gpa
 FROM students
 GROUP BY major;
+
 -- Maximum GPA by Gender
 SELECT gender, MAX(gpa) AS max_gpa
 FROM students
